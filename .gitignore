@@ -1,0 +1,70 @@
+# ====================
+#  Python
+# ====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ====================
+#  Virtual Environment
+# ====================
+venv/
+env/
+.venv/
+.env/
+
+# ====================
+#  Environment Variables
+# ====================
+.env
+*.env
+
+# ====================
+#  SSL / TLS Keys & Certs
+# ====================
+*.key
+*.crt
+*.pem
+*.p12
+*.pfx
+
+# ====================
+#  Runtime / Generated Files
+# ====================
+# SQLite database (generated at runtime by the AI bot)
+*.db
+*.sqlite3
+
+# Emergency alert log (generated at runtime)
+ACIL_DURUM_RAPORU.txt
+
+# Live status snapshot (generated at runtime)
+current_status.json
+
+# ====================
+#  IDE / Editor
+# ====================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ====================
+#  macOS
+# ====================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ====================
+#  Logs
+# ====================
+*.log
+logs/
